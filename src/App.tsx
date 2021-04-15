@@ -15,14 +15,16 @@ const App: React.FC = () => {
       <div className="row text-center">
           {pkmnData.map(pkmn=>{
             return(
-              <div className="card">
+              <div className="col">
+                <div className="card">
                 <img className="card-img-top" src={pkmn.img}alt={pkmn.name}/>
                 <div className="card-body">
                   <h5 className="card-title">{pkmn.name}</h5>
-                  <p className="card-text">`No. {pkmn.num}</p>
+                  <p className="card-text">No. {pkmn.num}</p>
                   <p className="card-text">{`Type: ${pkmn.type}`}</p>
                   <button className="btn btn-success">More Details</button>
                 </div>
+              </div>
               </div>
             )   
           })}

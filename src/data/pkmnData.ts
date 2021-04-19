@@ -1,4 +1,4 @@
-export const pkmnData = [{
+export const pkmnData:Pokemon[] = [{
     "id": 1,
     "num": "001",
     "name": "Bulbasaur",
@@ -4084,3 +4084,5 @@ export const pkmnData = [{
   }]
 
 export default pkmnData
+
+//we tell the app that pkmnData is of the TYPE Pokemon (in types.d.ts)

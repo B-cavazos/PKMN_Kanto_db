@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+.pkmn-bg{
+  background-image: url(/src/blue-starburst.jpg);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

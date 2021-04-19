@@ -6,7 +6,7 @@ import DetailsPage from '../pages/details'
 const Routes: React.FC = () => (
     <Switch>
         <Route exact path="/" component={HomePage}/>
-        <Route path="/pokemon/:pokemonId" component={DetailsPage}/>
+        <Route exact path="/pokemon/:pokemonName" component={DetailsPage}/>
     </Switch>
 );
 

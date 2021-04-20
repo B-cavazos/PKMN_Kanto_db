@@ -22,4 +22,5 @@ type Pokemon = { //Pascal casing
 type Evolution = {
   num: string;
   name: string;
+  img?:string;
 }
